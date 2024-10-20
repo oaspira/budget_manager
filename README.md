@@ -1,24 +1,47 @@
-# README
+# Budget Manager
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+**Budget Manager** é uma aplicação Ruby on Rails para gerenciar o orçamento mensal de forma simples e eficiente. O projeto utiliza a gem **Grape** para criar uma API RESTful no back-end e **Angular** no front-end para interações com o usuário.
 
-Things you may want to cover:
+## Funcionalidades
 
-* Ruby version
+- Adicionar despesas e receitas mensais.
+- Categorizar gastos e acompanhar a evolução ao longo do tempo.
+- API robusta para integração com outras plataformas.
 
-* System dependencies
+## Tecnologias
 
-* Configuration
+- **Ruby on Rails**
+- **Grape** (para criação de APIs)
+- **PostgreSQL** (banco de dados)
 
-* Database creation
+## Instalação
 
-* Database initialization
+1. Clone este repositório:
+```bash
+git clone https://github.com/oaspira/budget_manager.git
+```
 
-* How to run the test suite
+2. Instale as dependências:
+```bash
+bundle install
+yarn install
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+3. Configure o banco de dados:
+```bash
+rails db:create db:migrate
+```
 
-* Deployment instructions
+4. Inicie o servidor:
+```bash
+rails s
+```
 
-* ...
+## Testes
+Este projeto usa RSpec como framework de testes. Para rodar os testes, use o comando:
+```bash
+rspec
+```
+
+## Contribuição
+Sinta-se à vontade para abrir issues e pull requests.
